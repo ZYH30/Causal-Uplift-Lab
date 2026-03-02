@@ -1,0 +1,24 @@
+# Python 编译缓存文件 (必须忽略)
+__pycache__/
+*.py[cod]
+*$py.class
+
+# 虚拟环境 (如果有)
+venv/
+env/
+.env
+
+# 隐私数据与大文件 (强烈建议忽略)
+# 如果你希望用户自己准备数据，可以在 data 目录下放一个 README 或 dummy 数据
+data/*.csv
+data/*.xlsx
+data/*.json
+
+# 实验生成的图片和图表
+results/
+
+# IDE 与操作系统产生的系统文件
+.vscode/
+.idea/
+.DS_Store
+EOF

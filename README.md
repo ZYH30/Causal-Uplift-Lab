@@ -103,3 +103,6 @@ uplift_lab_based_causalGraph/
 
 * **逻辑流转**：
 `main.py` $\rightarrow$ 获取数据集与 DAG $\rightarrow$ 交由 `ocu_framework.py (FirstStage)` 提取 $C_{opt}$ 并产出 IPW $\rightarrow$ 交由 `ocu_framework.py (SecondStage)` 打包特征与权重 $\rightarrow$ 路由至 `models/*.py` 依据各自数学特性执行拟合 $\rightarrow$ 回传预测结果至 `main.py` 的评估模块进行绘图与指标计算。
+```base
+python main.py
+```

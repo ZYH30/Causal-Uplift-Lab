@@ -1215,5 +1215,5 @@ def main(is_observational=False, deconfound_method='IPW'):
 if __name__ == "__main__":
     # 如果是合成数据实验 (有 Ground Truth)，设为 False
     # 如果是真实业务数据 (无 Ground Truth)，设为 True -> 代码会自动估算 P-Score
-    # main(is_observational=False, deconfound_method='IPW') # PSM IPW
-    main(is_observational=True, deconfound_method='IPW') # PSM IPW
+    main(is_observational=False, deconfound_method='IPW') # PSM IPW
+    # main(is_observational=True, deconfound_method='IPW') # PSM IPW
